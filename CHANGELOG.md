@@ -1,5 +1,105 @@
 # Changelog
 
+## [16.0.1](https://github.com/amzxyz/rime-wanxiang/compare/v16.0.0...v16.0.1) (2026-07-03)
+
+
+### 📚 词库更新
+
+* 词库调整 ([36fa4f0](https://github.com/amzxyz/rime-wanxiang/commit/36fa4f02acd700d7b38ce707e2fcdb18d5d92b54))
+* 词库调整 ([ad0753f](https://github.com/amzxyz/rime-wanxiang/commit/ad0753ff594bda4ae13346a1277310246aa41276))
+
+
+### 🐛 Bug 修复
+
+* **lua:** 原生位运算符仅在 Lua 5.3+ 中可用 ([00805dd](https://github.com/amzxyz/rime-wanxiang/commit/00805dd487a3cbd3f872f658d41dbc1801f32b44))
+
+## [16.0.0](https://github.com/amzxyz/rime-wanxiang/compare/v15.16.0...v16.0.0) (2026-07-02)
+
+
+### 📚 词库更新
+
+* updat ([d9c7bca](https://github.com/amzxyz/rime-wanxiang/commit/d9c7bca7dde8f09a447559702e51645d32403aab))
+* 英文词库改成权重排序 ([1b6ca87](https://github.com/amzxyz/rime-wanxiang/commit/1b6ca87e19248c31039fa0513645670ab227c87c))
+* 词库调整 ([3ff3e77](https://github.com/amzxyz/rime-wanxiang/commit/3ff3e775421369aa62a437b54f5a1774a2dbcf13))
+* 词库调整 ([03d45f5](https://github.com/amzxyz/rime-wanxiang/commit/03d45f50b4cfe9817459fe294675351b07a354ce))
+* 词库调整 ([f8741be](https://github.com/amzxyz/rime-wanxiang/commit/f8741be921e3d0797c85403e3264cdbb9c76f5b0))
+* 词库调整 ([ecb5f01](https://github.com/amzxyz/rime-wanxiang/commit/ecb5f0119aea5b20bdeeffd35d0a240a99c7d324))
+* 词库调整 ([df9b9bb](https://github.com/amzxyz/rime-wanxiang/commit/df9b9bb76f1e736ba6413b0e1ae8eb56c127baa4))
+* 词库调整 ([46ceb54](https://github.com/amzxyz/rime-wanxiang/commit/46ceb54b892fba7a6cc4a062fda392061c7046de))
+* 词库调整 ([0d1ff85](https://github.com/amzxyz/rime-wanxiang/commit/0d1ff859ea71900f03dd789c2dcfbc6f0804284c))
+* 词库调整 ([979379e](https://github.com/amzxyz/rime-wanxiang/commit/979379e43f595f8e4d146900abd70c2cda4628a7))
+* 词库调整 ([3a2fcaa](https://github.com/amzxyz/rime-wanxiang/commit/3a2fcaa5b76842727e33b3245f1001d76ed83f9c))
+
+
+### 🐛 Bug 修复
+
+* 优化lookup反查速度体验 ([24fbebe](https://github.com/amzxyz/rime-wanxiang/commit/24fbebedb83cec95ac8564804907e404971170e7))
+* 优化输入统计 ([749ccd1](https://github.com/amzxyz/rime-wanxiang/commit/749ccd1cbd04fa78e657abaf259176b5e2c19a43))
+* 字符集过滤词库中的生僻字词组不删除只在句子中避免生僻字干扰 ([3bac4b0](https://github.com/amzxyz/rime-wanxiang/commit/3bac4b0954a017eb5360fb68ef37bef3e4b64b7d))
+* 将预测手机上有两种模式选择，而pc端只能上下文调频，这种硬性的分离避免了无意义的pc端使用弹出模式，不仅不好用还因lua限制input占位导致了很多问题，所以纠正到正确的道路上来 ([aae385b](https://github.com/amzxyz/rime-wanxiang/commit/aae385bfec117c7f88f1e136128c6c1ec1ace524))
+* 快符t/默认设置为制表符了 ([0d4eec1](https://github.com/amzxyz/rime-wanxiang/commit/0d4eec1e7631dd55de27d2fc281a48639fec6e67))
+* 文本格式化同步新增周相关占位 ([f69e853](https://github.com/amzxyz/rime-wanxiang/commit/f69e8534c08b70107988f77fdb0521d0a88745f3))
+* 时间新增周相关占位 ([75b7049](https://github.com/amzxyz/rime-wanxiang/commit/75b704961f98dcd8cbfff1a13ef7902910bce29c))
+* 移动端判断增加两个前端 ([1768768](https://github.com/amzxyz/rime-wanxiang/commit/176876868212496cc4da5b50440d1216015e08a2))
+* 经用户启发，replacer支持剔除掉手动分隔符的匹配简码 ([32775c7](https://github.com/amzxyz/rime-wanxiang/commit/32775c7a7cf3451a700febfc42f47b1826d3f9c0))
+* 补齐英文方案emoji开关 ([82a261c](https://github.com/amzxyz/rime-wanxiang/commit/82a261c9c10aa08185b9be24a9ec42c64d94aa5c))
+* 调整了一下方案配置结构 ([8c61f50](https://github.com/amzxyz/rime-wanxiang/commit/8c61f5087be35a073ebef11a0db870183b2a2d44))
+* 预测配置改为互斥的两种模式，对应的patch需要自行修改 ([62887f8](https://github.com/amzxyz/rime-wanxiang/commit/62887f888e03379353beb27f8c79747368bbdbbd))
+* 黄霄雲的雲加入小字集白名单 ([34382b9](https://github.com/amzxyz/rime-wanxiang/commit/34382b9c78897eba3299de0aed7d96b2d93aa3ad))
+* 默认关闭回退12词组交换的逻辑,让有需求且理解的人提问后开启 ([872e493](https://github.com/amzxyz/rime-wanxiang/commit/872e4936dd44012435264f051cfaa719baf95520))
+
+
+### 🏡 杂项
+
+* release 16.0.0 ([58aa771](https://github.com/amzxyz/rime-wanxiang/commit/58aa771ae37594a806d8512b867dae76ba71b30b))
+* 修正文档 ([3a359b4](https://github.com/amzxyz/rime-wanxiang/commit/3a359b4faae639a1ce898ac643e1f471c1250d6e))
+* 变更文档 ([2c2ca9d](https://github.com/amzxyz/rime-wanxiang/commit/2c2ca9dc308f698ea2c9bd4ca0a84a6a2e4669f8))
+* 文档迁移到仓库，建立与仓库强关联 ([1e0dcd3](https://github.com/amzxyz/rime-wanxiang/commit/1e0dcd38321223e63d02e9bd7771e1d483d0b4ac))
+
+## [15.16.0](https://github.com/amzxyz/rime-wanxiang/compare/v15.15.4...v15.16.0) (2026-06-28)
+
+
+### ✨ 新特性
+
+* 万象英文新增replacer，可以使用emoji和翻译为中文的配置 ([3058da5](https://github.com/amzxyz/rime-wanxiang/commit/3058da53dc77f01ecfaf2807e12fc1fdc501b5db))
+
+
+### 📚 词库更新
+
+* 词库调整 ([785638c](https://github.com/amzxyz/rime-wanxiang/commit/785638ce3722a78c69ab4b1c9e31dfd7bf2d574b))
+* 词库调整 ([f0c2803](https://github.com/amzxyz/rime-wanxiang/commit/f0c2803bac1d2fd1b7182889b3840f988d64dbb1))
+
+
+### 🐛 Bug 修复
+
+* 优化字符集过滤兜底性能 ([0910f4a](https://github.com/amzxyz/rime-wanxiang/commit/0910f4a7beeb49b386d5e9c5bde23ea535f4ac01))
+
+## [15.15.4](https://github.com/amzxyz/rime-wanxiang/compare/v15.15.3...v15.15.4) (2026-06-27)
+
+
+### 🐛 Bug 修复
+
+* 优化回车以拦截并输出换行 ([bfb8325](https://github.com/amzxyz/rime-wanxiang/commit/bfb8325a062104808510fee2161efac2cf6efa41))
+* 回车以拦截并输出换行来尝试 ([395ac0e](https://github.com/amzxyz/rime-wanxiang/commit/395ac0e77b97e4ee3d5e1bbda4f237fc70ddc3d8))
+* 紧急变更预测方案去掉了lua关于符号的拦截，改为通过key_binder处理 ([d9defd0](https://github.com/amzxyz/rime-wanxiang/commit/d9defd08d3fd47003b8c4cc081ee6530915809f0))
+
+## [15.15.3](https://github.com/amzxyz/rime-wanxiang/compare/v15.15.2...v15.15.3) (2026-06-27)
+
+
+### 📚 词库更新
+
+* 词库调整 ([fa43128](https://github.com/amzxyz/rime-wanxiang/commit/fa431281aa5ee76dc38cc9267d1e942c7d6f4d71))
+* 词库调整 ([260e32a](https://github.com/amzxyz/rime-wanxiang/commit/260e32a61290141237896185564c21d937b3106e))
+* 词库调整 ([8bbfebb](https://github.com/amzxyz/rime-wanxiang/commit/8bbfebb3f5abfd3c6e2d5fcafed2517ffb7032c7))
+* 词库调整 ([ab6a982](https://github.com/amzxyz/rime-wanxiang/commit/ab6a98288ecb24ee14892c45d539e6e51cfa3126))
+
+
+### 🐛 Bug 修复
+
+* 优化预测S级导入的保护策略 ([a28c698](https://github.com/amzxyz/rime-wanxiang/commit/a28c6986982f1814c3841ca0d7a6c1949a307022))
+* 优化预测的时候允许逗号句号顿号等直接上屏不带上预测候选 ([fc89f6f](https://github.com/amzxyz/rime-wanxiang/commit/fc89f6f98f722cd287c3c9920a0c799e818e3f8e))
+* 调整模型参数 ([f0ab68f](https://github.com/amzxyz/rime-wanxiang/commit/f0ab68f0094a87df5bfb61b19dc7487799f1b923))
+
 ## [15.15.2](https://github.com/amzxyz/rime-wanxiang/compare/v15.15.1...v15.15.2) (2026-06-25)
 
 
